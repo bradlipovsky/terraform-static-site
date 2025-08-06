@@ -1,0 +1,30 @@
+# VCS
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Env files / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Terraform (if any got copied here)
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan
+terraform.tfvars
+*.auto.tfvars
